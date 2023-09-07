@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a71bd9bc-e9b3-497f-a9b7-550a36363edd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Week4-From_Scratch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/configuration/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/controllers/NoteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/dtos/NoteDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/dtos/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/entities/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/repositories/NoteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/services/NoteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/services/NoteServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/noteApp/services/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/kathrynspeltz/Downloads/Java-Week4-From_Scratch",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
