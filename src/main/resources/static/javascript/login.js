@@ -16,7 +16,7 @@ const handleSubmit = async (e) =>{
     password: loginPassword.value
     }
 
-    const response = await fetch('${baseUrl}/login', {
+    const response = await fetch(`${baseUrl}/login`, {
         method: "POST",
         body: JSON.stringify(bodyObj),
         headers: headers
@@ -26,7 +26,7 @@ const handleSubmit = async (e) =>{
     const responseArr = await response.json()
 
     if (response.status === 200){
-        document.cookie = 'userId=${responseArr[1]}'
+        document.cookie = `userId=${responseArr[1]}`
         window.location.replace(responseArr[0])
     }
 }

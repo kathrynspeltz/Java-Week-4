@@ -28,7 +28,7 @@ public class Note {
     public Note(NoteDto noteDto) {
         if (noteDto.getBody() != null){
             this.body = noteDto.getBody();
-        };
+        }
     }
 
 }

@@ -24,10 +24,10 @@ public class NoteServiceImpl implements NoteService {
 
     @Override
     public List<NoteDto> getAllNotesByUserId(Long userId) {
-        Optional<User>userOptional = userRepository.findById(userId);
+        Optional<User> userOptional = userRepository.findById(userId);
         if (userOptional.isPresent()){
             List<Note> noteList = noteRepository.findAllByUserEquals(userOptional.get());
-            return noteList.stream().map(note -> new NoteDto(note)).collect(Collectors.toList());
+            return noteList.stream().map(NoteDto::new).collect(Collectors.toList());
         }
         return Collections.emptyList();
     }
@@ -59,9 +59,6 @@ public class NoteServiceImpl implements NoteService {
     @Override
     public Optional<NoteDto> getNoteById(Long noteId) {
         Optional<Note> noteOptional = noteRepository.findById(noteId);
-        if (noteOptional.isPresent()){
-            return Optional.of(new NoteDto(noteOptional.get()));
-        }
-        return Optional.empty();
+        return noteOptional.map(NoteDto::new);
     }
 }

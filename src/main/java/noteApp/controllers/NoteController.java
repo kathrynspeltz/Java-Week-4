@@ -18,20 +18,24 @@ public class NoteController {
     public List<NoteDto> getNotesByUser(@PathVariable Long userId){
         return noteService.getAllNotesByUserId(userId);
     }
+
+    @GetMapping("/{noteId}")
+    public Optional<NoteDto> getNoteById(@PathVariable Long noteId){
+        return noteService.getNoteById(noteId);
+    }
+
     @PostMapping("/user/{userId}")
-    public void addNote(@RequestBody NoteDto noteDto, @PathVariable Long userId){
+    public void addNote(@RequestBody NoteDto noteDto,@PathVariable Long userId){
         noteService.addNote(noteDto, userId);
     }
+
     @DeleteMapping("/{noteId}")
     public void deleteNoteById(@PathVariable Long noteId){
         noteService.deleteNoteById(noteId);
     }
-    @PutMapping("/")
+
+    @PutMapping
     public void updateNote(@RequestBody NoteDto noteDto){
         noteService.updateNoteById(noteDto);
-    }
-    @GetMapping("/{noteId}")
-    public Optional<NoteDto> getNoteById(@PathVariable Long noteId){
-        return noteService.getNoteById(noteId);
     }
 }
