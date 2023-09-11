@@ -27,7 +27,8 @@ const handleSubmit = async (e) => {
 }
 
 async function addNote(obj) {
-    const response = await fetch(`${baseUrl}user/${userId}`, {
+    const response = await
+    fetch(`${baseUrl}user/${userId}`, {
         method: "POST",
         body: JSON.stringify(obj),
         headers: headers
