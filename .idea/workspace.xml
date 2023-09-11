@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a71bd9bc-e9b3-497f-a9b7-550a36363edd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/javascript/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/javascript/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/javascript/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/noteApp/controllers/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/noteApp/controllers/NoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/noteApp/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/noteApp/services/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/javascript/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/javascript/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/javascript/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/javascript/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/javascript/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/javascript/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/noteApp/controllers/NoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/noteApp/controllers/NoteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/noteApp/services/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/noteApp/services/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
